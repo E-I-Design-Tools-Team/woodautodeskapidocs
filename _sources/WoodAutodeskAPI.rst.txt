@@ -1,11 +1,7 @@
-WoodAutodeskAPI package
-=======================
-
-Module contents
----------------
+WoodAutodeskAPI Module
+======================
 
 .. automodule:: WoodAutodeskAPI
-
-.. autoclass:: AutodeskTools
    :members:
    :undoc-members:
+   :show-inheritance:

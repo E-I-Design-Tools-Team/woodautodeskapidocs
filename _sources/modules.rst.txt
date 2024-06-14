@@ -1,7 +1,0 @@
-WoodAutodeskAPI
-===============
-
-.. toctree::
-   :maxdepth: 4
-
-   WoodAutodeskAPI

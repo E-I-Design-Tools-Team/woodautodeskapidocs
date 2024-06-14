@@ -1,25 +1,27 @@
 <!DOCTYPE html>
-<html class="writer-html5" lang="en" >
+<html class="writer-html5" lang="en" data-content_root="./">
 <head>
-  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>WoodAutodeskAPI package &mdash; WoodAutodeskAPI 0.0.1 documentation</title>
-      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
-      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <title>WoodAutodeskAPI Module &mdash; WoodAutodeskAPI 0.0.2 documentation</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=80d5e7a1" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=19f00094" />
+
+  
   <!--[if lt IE 9]>
     <script src="_static/js/html5shiv.min.js"></script>
   <![endif]-->
   
-        <script src="_static/jquery.js"></script>
-        <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
-        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
-        <script src="_static/doctools.js"></script>
-        <script src="_static/sphinx_highlight.js"></script>
+        <script src="_static/jquery.js?v=5d32c60e"></script>
+        <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+        <script src="_static/documentation_options.js?v=e3a6060d"></script>
+        <script src="_static/doctools.js?v=9a2dae69"></script>
+        <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
     <script src="_static/js/theme.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="prev" title="WoodAutodeskAPI" href="modules.html" /> 
+    <link rel="prev" title="Welcome to WoodAutodeskAPI’s documentation!" href="index.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -41,14 +43,36 @@
   </form>
 </div>
         </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
-              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
-<ul class="current">
-<li class="toctree-l1 current"><a class="reference internal" href="modules.html">WoodAutodeskAPI</a><ul class="current">
-<li class="toctree-l2 current"><a class="current reference internal" href="#">WoodAutodeskAPI package</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#module-WoodAutodeskAPI">Module contents</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#WoodAutodeskAPI.AutodeskTools"><code class="docutils literal notranslate"><span class="pre">AutodeskTools</span></code></a></li>
-</ul>
-</li>
+              <ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">WoodAutodeskAPI Module</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#WoodAutodeskAPI.AutodeskTools"><code class="docutils literal notranslate"><span class="pre">AutodeskTools</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#WoodAutodeskAPI.AutodeskTools.client_id"><code class="docutils literal notranslate"><span class="pre">AutodeskTools.client_id</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#WoodAutodeskAPI.AutodeskTools.client_secret"><code class="docutils literal notranslate"><span class="pre">AutodeskTools.client_secret</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#WoodAutodeskAPI.AutodeskTools.user_id"><code class="docutils literal notranslate"><span class="pre">AutodeskTools.user_id</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#WoodAutodeskAPI.AutodeskTools.access_token"><code class="docutils literal notranslate"><span class="pre">AutodeskTools.access_token</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#WoodAutodeskAPI.AutodeskTools.headers"><code class="docutils literal notranslate"><span class="pre">AutodeskTools.headers</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#WoodAutodeskAPI.AutodeskTools.authenticate_s2s"><code class="docutils literal notranslate"><span class="pre">AutodeskTools.authenticate_s2s()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#WoodAutodeskAPI.AutodeskTools.check_status_for_publishing"><code class="docutils literal notranslate"><span class="pre">AutodeskTools.check_status_for_publishing()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#WoodAutodeskAPI.AutodeskTools.delete_file_in_folder"><code class="docutils literal notranslate"><span class="pre">AutodeskTools.delete_file_in_folder()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#WoodAutodeskAPI.AutodeskTools.flatten"><code class="docutils literal notranslate"><span class="pre">AutodeskTools.flatten()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#WoodAutodeskAPI.AutodeskTools.get_all_C4R_models_in_folder"><code class="docutils literal notranslate"><span class="pre">AutodeskTools.get_all_C4R_models_in_folder()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#WoodAutodeskAPI.AutodeskTools.get_all_C4R_models_in_project"><code class="docutils literal notranslate"><span class="pre">AutodeskTools.get_all_C4R_models_in_project()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#WoodAutodeskAPI.AutodeskTools.get_all_folders_in_folder"><code class="docutils literal notranslate"><span class="pre">AutodeskTools.get_all_folders_in_folder()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#WoodAutodeskAPI.AutodeskTools.get_all_folders_on_project_id"><code class="docutils literal notranslate"><span class="pre">AutodeskTools.get_all_folders_on_project_id()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#WoodAutodeskAPI.AutodeskTools.get_all_hubs"><code class="docutils literal notranslate"><span class="pre">AutodeskTools.get_all_hubs()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#WoodAutodeskAPI.AutodeskTools.get_all_projects_on_hub_id"><code class="docutils literal notranslate"><span class="pre">AutodeskTools.get_all_projects_on_hub_id()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#WoodAutodeskAPI.AutodeskTools.get_folder"><code class="docutils literal notranslate"><span class="pre">AutodeskTools.get_folder()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#WoodAutodeskAPI.AutodeskTools.get_folder_content"><code class="docutils literal notranslate"><span class="pre">AutodeskTools.get_folder_content()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#WoodAutodeskAPI.AutodeskTools.get_item"><code class="docutils literal notranslate"><span class="pre">AutodeskTools.get_item()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#WoodAutodeskAPI.AutodeskTools.get_item_relationships"><code class="docutils literal notranslate"><span class="pre">AutodeskTools.get_item_relationships()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#WoodAutodeskAPI.AutodeskTools.get_with_retries"><code class="docutils literal notranslate"><span class="pre">AutodeskTools.get_with_retries()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#WoodAutodeskAPI.AutodeskTools.post_with_retries"><code class="docutils literal notranslate"><span class="pre">AutodeskTools.post_with_retries()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#WoodAutodeskAPI.AutodeskTools.print_nested_list"><code class="docutils literal notranslate"><span class="pre">AutodeskTools.print_nested_list()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#WoodAutodeskAPI.AutodeskTools.publish_model"><code class="docutils literal notranslate"><span class="pre">AutodeskTools.publish_model()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#WoodAutodeskAPI.AutodeskTools.publish_model_without_links"><code class="docutils literal notranslate"><span class="pre">AutodeskTools.publish_model_without_links()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#WoodAutodeskAPI.AutodeskTools.put_with_retries"><code class="docutils literal notranslate"><span class="pre">AutodeskTools.put_with_retries()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#WoodAutodeskAPI.AutodeskTools.update_file_to_folder_new_version"><code class="docutils literal notranslate"><span class="pre">AutodeskTools.update_file_to_folder_new_version()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#WoodAutodeskAPI.AutodeskTools.upload_file_to_folder"><code class="docutils literal notranslate"><span class="pre">AutodeskTools.upload_file_to_folder()</span></code></a></li>
 </ul>
 </li>
 </ul>
@@ -69,8 +93,7 @@
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
       <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
-          <li class="breadcrumb-item"><a href="modules.html">WoodAutodeskAPI</a></li>
-      <li class="breadcrumb-item active">WoodAutodeskAPI package</li>
+      <li class="breadcrumb-item active">WoodAutodeskAPI Module</li>
       <li class="wy-breadcrumbs-aside">
             <a href="_sources/WoodAutodeskAPI.rst.txt" rel="nofollow"> View page source</a>
       </li>
@@ -80,26 +103,26 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <section id="woodautodeskapi-package">
-<h1>WoodAutodeskAPI package<a class="headerlink" href="#woodautodeskapi-package" title="Permalink to this heading"></a></h1>
-<section id="module-WoodAutodeskAPI">
-<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-WoodAutodeskAPI" title="Permalink to this heading"></a></h2>
+  <section id="module-WoodAutodeskAPI">
+<span id="woodautodeskapi-module"></span><h1>WoodAutodeskAPI Module<a class="headerlink" href="#module-WoodAutodeskAPI" title="Link to this heading"></a></h1>
 <p>This is a wrapper for some of the functions on Autodesk Platform Services.</p>
 <p>Module is developed for Wood PLC exclusive use.</p>
 <p>This module contains tools to interact easily with Autodesk API.</p>
-<p>Be mindful, project ids usually have to start with string ‘b.’</p>
+<p>Be mindful, project on BIM360 have to start with string ‘b.’</p>
+<p>This API wrapper is designed to use on BIM360 projects, not on ACC projects.</p>
 <p>Tools in here mainly include data management, such as uploading files to folders,
 getting all folders inside of a folder, deleting files and obtaining item information.</p>
 <p>To start using it, I’ve defined three inputs for the AutodeskTooks class.
 These are mandatory in order to access all functions of the methods.</p>
 <dl class="py class">
 <dt class="sig sig-object py" id="WoodAutodeskAPI.AutodeskTools">
-<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">WoodAutodeskAPI.</span></span><span class="sig-name descname"><span class="pre">AutodeskTools</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">client_id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">client_secret</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">user_id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#WoodAutodeskAPI.AutodeskTools" title="Permalink to this definition"></a></dt>
-<dd><p>Class AutodeskTools contains multiple tools to access Autodesk API.
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">WoodAutodeskAPI.</span></span><span class="sig-name descname"><span class="pre">AutodeskTools</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">client_id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">client_secret</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">user_id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#WoodAutodeskAPI.AutodeskTools" title="Link to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>Class AutodeskTools contains multiple tools to access Autodesk API.
 It was designed for Wood PLC applications.</p>
 <dl class="py attribute">
 <dt class="sig sig-object py" id="WoodAutodeskAPI.AutodeskTools.client_id">
-<span class="sig-name descname"><span class="pre">client_id</span></span><a class="headerlink" href="#WoodAutodeskAPI.AutodeskTools.client_id" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">client_id</span></span><a class="headerlink" href="#WoodAutodeskAPI.AutodeskTools.client_id" title="Link to this definition"></a></dt>
 <dd><p>Class level API credential for Autodesk API. This is obtained
 from APS management page and specific app.</p>
 <dl class="field-list simple">
@@ -111,7 +134,7 @@ from APS management page and specific app.</p>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="WoodAutodeskAPI.AutodeskTools.client_secret">
-<span class="sig-name descname"><span class="pre">client_secret</span></span><a class="headerlink" href="#WoodAutodeskAPI.AutodeskTools.client_secret" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">client_secret</span></span><a class="headerlink" href="#WoodAutodeskAPI.AutodeskTools.client_secret" title="Link to this definition"></a></dt>
 <dd><p>Class level API credential for Autodesk API. This is obtained
 from APS management page and specific app.</p>
 <dl class="field-list simple">
@@ -123,7 +146,7 @@ from APS management page and specific app.</p>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="WoodAutodeskAPI.AutodeskTools.user_id">
-<span class="sig-name descname"><span class="pre">user_id</span></span><a class="headerlink" href="#WoodAutodeskAPI.AutodeskTools.user_id" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">user_id</span></span><a class="headerlink" href="#WoodAutodeskAPI.AutodeskTools.user_id" title="Link to this definition"></a></dt>
 <dd><p>Class level API credential for Autodesk API. This is easily obtained by
 inspecting an item modified by a user, or inspecting users within the
 project.
@@ -138,7 +161,7 @@ running any app with this wrapper.</p>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="WoodAutodeskAPI.AutodeskTools.access_token">
-<span class="sig-name descname"><span class="pre">access_token</span></span><a class="headerlink" href="#WoodAutodeskAPI.AutodeskTools.access_token" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">access_token</span></span><a class="headerlink" href="#WoodAutodeskAPI.AutodeskTools.access_token" title="Link to this definition"></a></dt>
 <dd><p>Auth token obtained from Autodesk using credentials on
 Authentication API.</p>
 <dl class="field-list simple">
@@ -150,7 +173,7 @@ Authentication API.</p>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="WoodAutodeskAPI.AutodeskTools.headers">
-<span class="sig-name descname"><span class="pre">headers</span></span><a class="headerlink" href="#WoodAutodeskAPI.AutodeskTools.headers" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">headers</span></span><a class="headerlink" href="#WoodAutodeskAPI.AutodeskTools.headers" title="Link to this definition"></a></dt>
 <dd><p>json dictionary to inject access_token and user_id into https requests.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Type<span class="colon">:</span></dt>
@@ -161,9 +184,10 @@ Authentication API.</p>
 
 <dl class="py method">
 <dt class="sig sig-object py" id="WoodAutodeskAPI.AutodeskTools.authenticate_s2s">
-<span class="sig-name descname"><span class="pre">authenticate_s2s</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#WoodAutodeskAPI.AutodeskTools.authenticate_s2s" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">authenticate_s2s</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#WoodAutodeskAPI.AutodeskTools.authenticate_s2s" title="Link to this definition"></a></dt>
 <dd><p>Function which authenticates and renews the access_token class variable.</p>
 <p>It just needs to be invoked.</p>
+<p>It is using Authentication V2 endpoint.</p>
 <p>As a reccomendation, it will be easier on memory to just use this method instead of
 instantiating a new class.</p>
 <dl class="field-list simple">
@@ -178,7 +202,7 @@ instantiating a new class.</p>
 
 <dl class="py method">
 <dt class="sig sig-object py" id="WoodAutodeskAPI.AutodeskTools.check_status_for_publishing">
-<span class="sig-name descname"><span class="pre">check_status_for_publishing</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">project_id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">model_id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">dict</span></span></span><a class="headerlink" href="#WoodAutodeskAPI.AutodeskTools.check_status_for_publishing" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">check_status_for_publishing</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">project_id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">model_id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">dict</span></span></span><a class="headerlink" href="#WoodAutodeskAPI.AutodeskTools.check_status_for_publishing" title="Link to this definition"></a></dt>
 <dd><p>Function which returns a dictionary with information on 3D models available
 for publishing.</p>
 <dl class="simple">
@@ -219,12 +243,32 @@ learn more about the model.</p>
 
 <dl class="py method">
 <dt class="sig sig-object py" id="WoodAutodeskAPI.AutodeskTools.delete_file_in_folder">
-<span class="sig-name descname"><span class="pre">delete_file_in_folder</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">project_id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">item_id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#WoodAutodeskAPI.AutodeskTools.delete_file_in_folder" title="Permalink to this definition"></a></dt>
-<dd></dd></dl>
+<span class="sig-name descname"><span class="pre">delete_file_in_folder</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">project_id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">item_id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#WoodAutodeskAPI.AutodeskTools.delete_file_in_folder" title="Link to this definition"></a></dt>
+<dd><p>Function which deletes a file in a specific project.</p>
+<p>It returns a dictionary with the deletion info.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>project_id</strong> (<em>str</em>) – Project id Autodesk identifier. Can be obtained by
+exploring all projects using the API methods, or, easier
+just using BIM360 and obtaining from the URL.</p></li>
+<li><p><strong>item_id</strong> (<em>str</em>) – Item id Autodesk identifier. Can be obtained by
+exploring all projects using the API methods, or, easier
+just using BIM360 and obtaining from the URL.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>Returns a dictionary with information from the deletion.</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>dict</p>
+</dd>
+</dl>
+</dd></dl>
 
 <dl class="py method">
 <dt class="sig sig-object py" id="WoodAutodeskAPI.AutodeskTools.flatten">
-<span class="sig-name descname"><span class="pre">flatten</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">lst</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">list</span></span></span><a class="headerlink" href="#WoodAutodeskAPI.AutodeskTools.flatten" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">flatten</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">lst</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">list</span></span></span><a class="headerlink" href="#WoodAutodeskAPI.AutodeskTools.flatten" title="Link to this definition"></a></dt>
 <dd><p>Method which gets a list with indented lists in it and returns a flat list
 with only items.</p>
 <dl class="field-list simple">
@@ -242,7 +286,7 @@ with only items.</p>
 
 <dl class="py method">
 <dt class="sig sig-object py" id="WoodAutodeskAPI.AutodeskTools.get_all_C4R_models_in_folder">
-<span class="sig-name descname"><span class="pre">get_all_C4R_models_in_folder</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">project_id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">folder</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">list</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">list</span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#WoodAutodeskAPI.AutodeskTools.get_all_C4R_models_in_folder" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">get_all_C4R_models_in_folder</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">project_id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">folder</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">list</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">list</span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#WoodAutodeskAPI.AutodeskTools.get_all_C4R_models_in_folder" title="Link to this definition"></a></dt>
 <dd><p>Function which obtains all Collaboration For Revit (C4R) models in a given folder.</p>
 <p>It returns a list with the model’s id and the model’s status.</p>
 <dl class="field-list simple">
@@ -272,7 +316,7 @@ allow for easy visualization.</p>
 
 <dl class="py method">
 <dt class="sig sig-object py" id="WoodAutodeskAPI.AutodeskTools.get_all_C4R_models_in_project">
-<span class="sig-name descname"><span class="pre">get_all_C4R_models_in_project</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">hub</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">project_id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">list</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">list</span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#WoodAutodeskAPI.AutodeskTools.get_all_C4R_models_in_project" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">get_all_C4R_models_in_project</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">hub</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">project_id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">list</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">list</span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#WoodAutodeskAPI.AutodeskTools.get_all_C4R_models_in_project" title="Link to this definition"></a></dt>
 <dd><p>Function which obtains all Collaboration For Revit (C4R) models in a given project.</p>
 <p>It returns a list with the model’s id and the model’s status.</p>
 <dl class="field-list simple">
@@ -301,7 +345,7 @@ allow for easy visualization.</p>
 
 <dl class="py method">
 <dt class="sig sig-object py" id="WoodAutodeskAPI.AutodeskTools.get_all_folders_in_folder">
-<span class="sig-name descname"><span class="pre">get_all_folders_in_folder</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">project_id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">folder</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">verbose</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">bool</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">list</span></span></span><a class="headerlink" href="#WoodAutodeskAPI.AutodeskTools.get_all_folders_in_folder" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">get_all_folders_in_folder</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">project_id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">folder</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">verbose</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">bool</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">list</span></span></span><a class="headerlink" href="#WoodAutodeskAPI.AutodeskTools.get_all_folders_in_folder" title="Link to this definition"></a></dt>
 <dd><p>Function which obtains all folders in a given project.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters<span class="colon">:</span></dt>
@@ -334,7 +378,7 @@ affect execution time of the function.</p>
 
 <dl class="py method">
 <dt class="sig sig-object py" id="WoodAutodeskAPI.AutodeskTools.get_all_folders_on_project_id">
-<span class="sig-name descname"><span class="pre">get_all_folders_on_project_id</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">hub</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">project_id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">verbose</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">bool</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">list</span></span></span><a class="headerlink" href="#WoodAutodeskAPI.AutodeskTools.get_all_folders_on_project_id" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">get_all_folders_on_project_id</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">hub</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">project_id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">verbose</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">bool</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">list</span></span></span><a class="headerlink" href="#WoodAutodeskAPI.AutodeskTools.get_all_folders_on_project_id" title="Link to this definition"></a></dt>
 <dd><p>Function which obtains all folders in a given project.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters<span class="colon">:</span></dt>
@@ -364,7 +408,7 @@ affect execution time of the function.</p>
 
 <dl class="py method">
 <dt class="sig sig-object py" id="WoodAutodeskAPI.AutodeskTools.get_all_hubs">
-<span class="sig-name descname"><span class="pre">get_all_hubs</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">dict</span></span></span><a class="headerlink" href="#WoodAutodeskAPI.AutodeskTools.get_all_hubs" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">get_all_hubs</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">dict</span></span></span><a class="headerlink" href="#WoodAutodeskAPI.AutodeskTools.get_all_hubs" title="Link to this definition"></a></dt>
 <dd><p>This function returns a json dictionary containing info of all hubs
 accessible by the account and user_id.</p>
 <dl class="field-list simple">
@@ -379,7 +423,7 @@ accessible by the account and user_id.</p>
 
 <dl class="py method">
 <dt class="sig sig-object py" id="WoodAutodeskAPI.AutodeskTools.get_all_projects_on_hub_id">
-<span class="sig-name descname"><span class="pre">get_all_projects_on_hub_id</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">hub</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">list</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">list</span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#WoodAutodeskAPI.AutodeskTools.get_all_projects_on_hub_id" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">get_all_projects_on_hub_id</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">hub</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">list</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">list</span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#WoodAutodeskAPI.AutodeskTools.get_all_projects_on_hub_id" title="Link to this definition"></a></dt>
 <dd><p>Function which obtains all projects given a hub id and returns them in a tuple
 containing two ordered lists.</p>
 <dl class="field-list simple">
@@ -404,7 +448,7 @@ side by side.</p>
 
 <dl class="py method">
 <dt class="sig sig-object py" id="WoodAutodeskAPI.AutodeskTools.get_folder">
-<span class="sig-name descname"><span class="pre">get_folder</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">project_id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">folder_id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#WoodAutodeskAPI.AutodeskTools.get_folder" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">get_folder</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">project_id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">folder_id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#WoodAutodeskAPI.AutodeskTools.get_folder" title="Link to this definition"></a></dt>
 <dd><p>Function which obtains all information from a folder.</p>
 <p>It returns a dictionary with the folder’s info.</p>
 <dl class="field-list simple">
@@ -429,7 +473,7 @@ just using BIM360 and obtaining from the URL.</p></li>
 
 <dl class="py method">
 <dt class="sig sig-object py" id="WoodAutodeskAPI.AutodeskTools.get_folder_content">
-<span class="sig-name descname"><span class="pre">get_folder_content</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">project_id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">folder</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">dict</span></span></span><a class="headerlink" href="#WoodAutodeskAPI.AutodeskTools.get_folder_content" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">get_folder_content</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">project_id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">folder</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">dict</span></span></span><a class="headerlink" href="#WoodAutodeskAPI.AutodeskTools.get_folder_content" title="Link to this definition"></a></dt>
 <dd><p>Function which obtains all information from a folder’s content.</p>
 <p>It returns a dictionary with the folder info.</p>
 <dl class="field-list simple">
@@ -454,7 +498,7 @@ just using BIM360 and obtaining from the URL.</p></li>
 
 <dl class="py method">
 <dt class="sig sig-object py" id="WoodAutodeskAPI.AutodeskTools.get_item">
-<span class="sig-name descname"><span class="pre">get_item</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">project_id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">item_id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#WoodAutodeskAPI.AutodeskTools.get_item" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">get_item</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">project_id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">item_id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#WoodAutodeskAPI.AutodeskTools.get_item" title="Link to this definition"></a></dt>
 <dd><p>Function which obtains all information from an item.</p>
 <p>It returns a dictionary with the item info.</p>
 <dl class="field-list simple">
@@ -479,7 +523,7 @@ just using BIM360 and obtaining from the URL.</p></li>
 
 <dl class="py method">
 <dt class="sig sig-object py" id="WoodAutodeskAPI.AutodeskTools.get_item_relationships">
-<span class="sig-name descname"><span class="pre">get_item_relationships</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">project_id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">item_id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">dict</span></span></span><a class="headerlink" href="#WoodAutodeskAPI.AutodeskTools.get_item_relationships" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">get_item_relationships</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">project_id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">item_id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">dict</span></span></span><a class="headerlink" href="#WoodAutodeskAPI.AutodeskTools.get_item_relationships" title="Link to this definition"></a></dt>
 <dd><p>Function which obtains all information from an item’s relationships.</p>
 <p>It returns a dictionary with the item’s relationship info.</p>
 <dl class="field-list simple">
@@ -504,7 +548,7 @@ just using BIM360 and obtaining from the URL.</p></li>
 
 <dl class="py method">
 <dt class="sig sig-object py" id="WoodAutodeskAPI.AutodeskTools.get_with_retries">
-<em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">get_with_retries</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">url</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">headers</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">dict</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">max_retries</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">3</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">time_for_retry</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">1</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#WoodAutodeskAPI.AutodeskTools.get_with_retries" title="Permalink to this definition"></a></dt>
+<em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">get_with_retries</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">url</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">headers</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">dict</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">max_retries</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">4</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">time_for_retry</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">60</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#WoodAutodeskAPI.AutodeskTools.get_with_retries" title="Link to this definition"></a></dt>
 <dd><p>Method which retries a get request.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters<span class="colon">:</span></dt>
@@ -529,19 +573,38 @@ the request. Defaults as 3.</p></li>
 </dd></dl>
 
 <dl class="py method">
+<dt class="sig sig-object py" id="WoodAutodeskAPI.AutodeskTools.post_with_retries">
+<em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">post_with_retries</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">url</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">json</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">headers</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">dict</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">max_retries</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">4</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">time_for_retry</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">60</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#WoodAutodeskAPI.AutodeskTools.post_with_retries" title="Link to this definition"></a></dt>
+<dd><p>Method which retries a post request.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>url</strong> (<em>str</em>) – The URL to make the POST request to.</p></li>
+<li><p><strong>json</strong> (<em>dict</em>) – The JSON payload to be sent in the POST request.</p></li>
+<li><p><strong>headers</strong> (<em>dict</em>) – Headers to be included in the POST request.</p></li>
+<li><p><strong>max_retries</strong> (<em>int</em>) – Input the maximum number of retries before it stops the request. Defaults to 3.</p></li>
+<li><p><strong>time_for_retry</strong> (<em>int</em>) – Time until the next retry in seconds. Defaults to 1s.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>Returns the expected response. Usually a dictionary, but can vary depending on the request.</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>dict</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
 <dt class="sig sig-object py" id="WoodAutodeskAPI.AutodeskTools.print_nested_list">
-<span class="sig-name descname"><span class="pre">print_nested_list</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">nested_list</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">list</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">indent</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">0</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#WoodAutodeskAPI.AutodeskTools.print_nested_list" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">print_nested_list</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">nested_list</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">list</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">indent</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">0</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#WoodAutodeskAPI.AutodeskTools.print_nested_list" title="Link to this definition"></a></dt>
 <dd><dl>
-<dt>Method which prints a nested_list and prints all the list in a format like:</dt><dd><p>[Item1,[Item2, Item3,[Item4]]]
-Prints&gt;
+<dt>Method which prints a nested_list and prints all the list in a format like:</dt><dd><p>[Item1,[Item2, Item3,[Item4]]]</p>
+<p>Prints&gt;
 Item1</p>
-<blockquote>
-<div><p>Item2
-Item3</p>
-<blockquote>
-<div><p>Item4</p>
-</div></blockquote>
-</div></blockquote>
+<p>–Item2</p>
+<p>–Item3</p>
+<p>—-Item4</p>
 </dd>
 </dl>
 <p>This is useful when obtaining all folders in a folder, and saving that list.</p>
@@ -557,7 +620,7 @@ Item3</p>
 
 <dl class="py method">
 <dt class="sig sig-object py" id="WoodAutodeskAPI.AutodeskTools.publish_model">
-<span class="sig-name descname"><span class="pre">publish_model</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">project_id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">model_id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#WoodAutodeskAPI.AutodeskTools.publish_model" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">publish_model</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">project_id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">model_id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#WoodAutodeskAPI.AutodeskTools.publish_model" title="Link to this definition"></a></dt>
 <dd><p>Function which sends the publish command to a C4R model.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters<span class="colon">:</span></dt>
@@ -583,27 +646,76 @@ navigating the BIM360 folder structure.</p></li>
 </dd></dl>
 
 <dl class="py method">
+<dt class="sig sig-object py" id="WoodAutodeskAPI.AutodeskTools.publish_model_without_links">
+<span class="sig-name descname"><span class="pre">publish_model_without_links</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">project_id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">model_id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#WoodAutodeskAPI.AutodeskTools.publish_model_without_links" title="Link to this definition"></a></dt>
+<dd><p>Function which sends the publish without links command to a C4R model.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>project_id</strong> (<em>str</em>) – <p>Project id Autodesk identifier. Can be obtained by exploring all
+projects using the API methods, or, easier just using
+BIM360 and obtaining from the URL.</p>
+<p>This must begin with ‘b.’, else the API won’t be able to
+access the project.</p>
+</p></li>
+<li><p><strong>model_id</strong> (<em>str</em>) – Model id Autodesk identifier. Can be obtained exploring items using
+this API wrapper, or, if just interested in one model, can be obtained
+navigating the BIM360 folder structure.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>Returns the status of model, can be ‘comitted’ or ‘complete’</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="WoodAutodeskAPI.AutodeskTools.put_with_retries">
+<em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">put_with_retries</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">url</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">data</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">headers</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">dict</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">max_retries</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">4</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">time_for_retry</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">60</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#WoodAutodeskAPI.AutodeskTools.put_with_retries" title="Link to this definition"></a></dt>
+<dd><p>Method which retries a put request.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>url</strong> (<em>str</em>) – The URL to make the PUT request to.</p></li>
+<li><p><strong>data</strong> – The data to be sent in the PUT request.</p></li>
+<li><p><strong>headers</strong> (<em>dict</em>) – Headers to be included in the PUT request.</p></li>
+<li><p><strong>max_retries</strong> (<em>int</em>) – Input the maximum number of retries before it stops the request. Defaults to 3.</p></li>
+<li><p><strong>time_for_retry</strong> (<em>int</em>) – Time until the next retry in seconds. Defaults to 1s.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>Returns the expected response. Usually a dictionary, but can vary depending on the request.</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>dict</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
 <dt class="sig sig-object py" id="WoodAutodeskAPI.AutodeskTools.update_file_to_folder_new_version">
-<span class="sig-name descname"><span class="pre">update_file_to_folder_new_version</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">project_id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">folder_id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">file_path</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">item_id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#WoodAutodeskAPI.AutodeskTools.update_file_to_folder_new_version" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">update_file_to_folder_new_version</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">project_id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">folder_id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">file_path</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">item_id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#WoodAutodeskAPI.AutodeskTools.update_file_to_folder_new_version" title="Link to this definition"></a></dt>
 <dd><p>TAKEN FROM <a class="reference external" href="https://aps.autodesk.com/en/docs/bim360/v1/tutorials/document-management/upload-document-s3/">https://aps.autodesk.com/en/docs/bim360/v1/tutorials/document-management/upload-document-s3/</a></p>
 </dd></dl>
 
 <dl class="py method">
 <dt class="sig sig-object py" id="WoodAutodeskAPI.AutodeskTools.upload_file_to_folder">
-<span class="sig-name descname"><span class="pre">upload_file_to_folder</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">project_id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">folder_id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">file_path</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#WoodAutodeskAPI.AutodeskTools.upload_file_to_folder" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">upload_file_to_folder</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">project_id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">folder_id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">file_path</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#WoodAutodeskAPI.AutodeskTools.upload_file_to_folder" title="Link to this definition"></a></dt>
 <dd><p>TAKEN FROM <a class="reference external" href="https://aps.autodesk.com/en/docs/bim360/v1/tutorials/document-management/upload-document-s3/">https://aps.autodesk.com/en/docs/bim360/v1/tutorials/document-management/upload-document-s3/</a></p>
 </dd></dl>
 
 </dd></dl>
 
-</section>
 </section>
 
 
            </div>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
-        <a href="modules.html" class="btn btn-neutral float-left" title="WoodAutodeskAPI" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="index.html" class="btn btn-neutral float-left" title="Welcome to WoodAutodeskAPI’s documentation!" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
     </div>
 
   <hr/>
